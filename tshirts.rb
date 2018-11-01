@@ -1,4 +1,4 @@
-#!/home/berco/.rvm/rubies/ruby-2.3.1/bin/ruby
+#!/usr/bin/ruby
 
 quest = File.open 'tshirts_1.txt'
 tshirts_count, days_count = quest.gets.split(' ').map {|number| number.to_i}
